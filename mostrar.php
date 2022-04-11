@@ -36,8 +36,8 @@ if ($conex) {
                                 <td><?php echo $color ?></td>
                                 <td><?php echo $email ?></td>
                                 <td>
-                                    <a href="#">editar</a>
-                                    <a href="#">eliminar</a>
+                                    <a href="editar.php?id=<?php echo $id ?>&nombre=<?php echo $nombre ?>&color=<?php echo $color ?>&email=<?php echo $email ?>">editar</a>
+                                    <a href="eliminar_b.php?id=<?php echo $id ?>">eliminar</a>
 
                                 </td>
 

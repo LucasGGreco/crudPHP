@@ -21,7 +21,7 @@
 					<input id="color" type="text" class="form-control my-2" name="color" placeholder="Su color favorito">	
 					<input id="email" type="text" class="form-control my-2" name="email" placeholder="Email">
 		
-					<input type="submit" name="register" class="btn btn-primary">
+					<input type="submit" name="register" class="btn btn-primary" value="Crear">
 
 				</form>
 			</div>
@@ -32,7 +32,6 @@
 	<?php 
 		include("registrar.php");
 		include("mostrar.php");	
-
 	?>  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
